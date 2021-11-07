@@ -9,7 +9,7 @@ int main()
 /*  LONG_MIN and LONG_MAX aren't returning the correct values and  *
  *  log() isn't returning the number of bytes for int or long int  */
 
-    static const int u_min     = 0;
+    static const int   u_min   = 0;
     static const float divisor = log(2);
 
     float dividend;
